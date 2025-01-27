@@ -1,0 +1,21 @@
+{
+  "name": "testimonial",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/lena-bel/testimonials-frontendmentor#readme",
+  "bugs": {
+    "url": "https://github.com/lena-bel/testimonials-frontendmentor/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lena-bel/testimonials-frontendmentor.git"
+  },
+  "license": "ISC",
+  "author": "Lena",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "sass app/sass/main.scss public/style.css --watch"
+  }
+}
