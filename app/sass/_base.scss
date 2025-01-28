@@ -13,22 +13,27 @@ main{
 }
 article{ 
     padding: 2rem;
+    border-radius: 15px;
 }
 #daniel{
     background-color: $daniel-bc;
     color: white;
+    box-shadow: 2px 2px 2px 2px $daniel-bc;
 }
 #jonathan{
     background-color: $jonathan-bc;
     color: white;
+    box-shadow: 2px 2px 2px 2px $jonathan-bc;
 }
 #kira, #jeanette{
     background-color: $kira-jeanette;
     color: rgb(77, 74, 74);
+    box-shadow: 2px 2px 2px 2px $kira-jeanette;
 }
 #patrick{
     background-color: $pattric-bc;
     color: white;
+    box-shadow: 2px 2px 2px 2px $pattric-bc;
 }
 img{
     height: 50px;
@@ -56,4 +61,10 @@ article .special{
 }
 #jeanette p{
     color: rgba(77, 74, 74, 70%)
+}
+#daniel{
+    background-image: url(images/bg-pattern-quotation.svg);
+    background-position-x: 80%;
+    background-size: 100px;
+    background-repeat: no-repeat;
 }

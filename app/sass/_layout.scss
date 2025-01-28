@@ -17,21 +17,23 @@ article section{
         grid-auto-flow: dense;
         padding: 4rem 8rem;
         height: 100vh;
-    }
-    #daniel{
-        grid-area: 1/1/2/3;
-    }
-    #jonathan{
-        grid-area: 1/3/2/4;
-    }
-    #kira{
-        grid-area: 1/4/3/5;
-    }
-    #jeanette{
-        grid-area: 2/1/3/2;
-    }
-    #patrick{
-        grid-area: 2/2/3/4;
+        #daniel{
+            grid-area: 1/1/2/3;
+            
+        }
+        #jonathan{
+            grid-area: 1/3/2/4;
+        }
+        #kira{
+            grid-area: 1/4/3/5;
+        }
+        #jeanette{
+            grid-area: 2/1/3/2;
+        }
+        #patrick{
+            grid-area: 2/2/3/4;
+        }
+        
     }
     
 }
@@ -43,21 +45,24 @@ article section{
         margin-left: auto;
         margin-right: auto;
         place-self: center;
-    }
-    #daniel{
-        grid-row: 1 span 2;
-    }
-    #jonathan{
-        grid-row: 3 span 1;
-    }
-    #kira{
-        grid-row: 6 span 2;
-    }
-    #jeanette{
-        grid-row: 4 span 1;
-    }
-    #patrick{
-        grid-row: 5 span 2;
+        #daniel{
+            grid-row: 1 span 2;
+        }
+        #jonathan{
+            grid-row: 3 span 1;
+        }
+        #kira{
+            grid-row: 6 span 2;
+        }
+        #jeanette{
+            grid-row: 4 span 1;
+        }
+        #patrick{
+            grid-row: 5 span 2;
+        }
     }
     
+    
 }
+
+
