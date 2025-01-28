@@ -1,6 +1,14 @@
+* {
+  margin: 0;
+}
+
 body {
   font-size: 13px;
+}
+
+main {
   background-color: hsl(210, 46%, 95%);
+  padding: 8rem;
 }
 
 article {
@@ -19,6 +27,7 @@ article {
 
 #kira, #jeanette {
   background-color: hsl(0, 0%, 100%);
+  color: rgb(77, 74, 74);
 }
 
 #patrick {
@@ -43,24 +52,24 @@ article .special {
   font-weight: 500;
 }
 
-#daniel section p {
+#daniel p {
   color: rgba(255, 255, 255, 0.7);
 }
 
-#jonathan section p {
+#jonathan p {
   color: rgba(255, 255, 255, 0.7);
 }
 
-#patrick section p {
+#patrick p {
   color: rgba(255, 255, 255, 0.7);
 }
 
-#kira section p {
-  color: rgba(0, 0, 0, 0.7);
+#kira p {
+  color: rgba(77, 74, 74, 0.7);
 }
 
-#jeanette section p {
-  color: rgba(0, 0, 0, 0.7);
+#jeanette p {
+  color: rgba(77, 74, 74, 0.7);
 }
 
 article section div {
@@ -80,7 +89,6 @@ article section {
     gap: 1rem;
     margin-left: auto;
     margin-right: auto;
-    place-self: center;
     grid-auto-flow: dense;
   }
   #daniel {
