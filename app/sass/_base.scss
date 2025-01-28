@@ -1,0 +1,54 @@
+@import "variables";
+@import "utilis";
+// *{
+//     margin: 0;
+// }
+body{
+    font-size: 13px;
+    background-color: $body-bc;
+}
+article{ 
+    padding: 2rem;
+}
+#daniel{
+    background-color: $daniel-bc;
+    color: white;
+}
+#jonathan{
+    background-color: $jonathan-bc;
+    color: white;
+}
+#kira, #jeanette{
+    background-color: $kira-jeanette;
+}
+#patrick{
+    background-color: $pattric-bc;
+    color: white;
+}
+img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+article>h2{
+    @include my-font;
+    padding: 15px 0;
+}
+article .special{
+    @include my-special-font;
+}
+#daniel section p{
+    color: rgba(255, 255, 255, 70%);
+}
+#jonathan section p{
+    color: rgba(255, 255, 255, 70%);
+}
+#patrick section p{
+    color: rgba(255, 255, 255, 70%);
+}
+#kira section p{
+    color: rgba(0, 0, 0, 70%);
+}
+#jeanette section p{
+    color: rgba(0, 0, 0, 70%);
+}

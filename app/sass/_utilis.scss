@@ -1,0 +1,8 @@
+@mixin my-special-font{
+    font-family: "Barlow Semi Condensed", sans-serif;
+    font-weight: 500;
+}
+@mixin my-font{
+    font-family: "Barlow Semi Condensed", sans-serif;
+    font-weight: 600;
+}
